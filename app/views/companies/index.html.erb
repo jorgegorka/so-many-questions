@@ -1,0 +1,11 @@
+<h1>All companies</h1>
+
+<%# <% @companies.each do |company| %> 
+    <%# <li> %>
+        <%# <%= company.name %> 
+    <%# </li> %>
+<%# <% end%> 
+
+<%# <%= render partial: 'company', collection: @companies %>
+<%= render @companies %>
+<%= link_to 'Add a company', new_company_path %>

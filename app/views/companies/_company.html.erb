@@ -1,0 +1,4 @@
+<li>
+    <%= link_to "#{company.id} - #{company.name}", edit_company_path(company) %>
+    <%= button_to "Delete me", company_path(company), method: "delete" %>
+</li>
